@@ -1,0 +1,22 @@
+.better {
+    height: 710px;
+    background-image: url("../../images/Website-Main-Banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.better__img {
+    margin-top: 190px;
+}
+
+.better__title {
+    font-size: 57px;
+    font-weight: 700;
+    color: var(--clr-primary);
+    
+}

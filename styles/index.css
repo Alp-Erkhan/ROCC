@@ -4,6 +4,7 @@
 
 /* Blocks */
 @import 'blocks/header.css';
+@import 'blocks/main.css';
 
 * {
     margin: 0;
