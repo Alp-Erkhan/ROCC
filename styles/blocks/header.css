@@ -1,0 +1,16 @@
+.header {
+    background-color: var(--desaturated-green);
+    padding: 30px 0 27px 57px;
+}
+
+.menu {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.menu__list {
+    text-decoration: none;
+    color: var(--clr-primary);
+}
