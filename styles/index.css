@@ -14,9 +14,23 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--desaturated-green)
 }
 
 .wrapper {
     width: 1440px;
     margin: 0 auto;
+}
+
+.btn {
+    color: inherit;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 5px 40px;
+    border-radius: 3px;
+    border: 1px solid var(--desaturated-green);
+    background-color: var(--clr-primary);
 }

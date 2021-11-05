@@ -1,3 +1,4 @@
+/* better section */
 .better {
     height: 710px;
     background-image: url("../../images/Website-Main-Banner.jpg");
@@ -18,5 +19,59 @@
     font-size: 57px;
     font-weight: 700;
     color: var(--clr-primary);
-    
+}
+
+/* Shop section */
+.shop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 180px 1fr 165px;
+}
+
+.shop__title {
+    grid-column: 1 / 5;
+    margin: 100px auto 45px;   
+}
+
+.shop__article {
+    width: 335px;
+    height: 500px;
+    background-color: var(--light-yellow);
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.article__title {
+    line-height: 60px;
+    text-align: center;
+    background-color: var(--clr-primary);
+
+}
+
+.article__img {
+    background-color: #fff;
+}
+
+.shop__button {
+    grid-column: 1 / 5;
+    margin: 35px auto 100px;  
+}
+
+/* shop-2 section */
+.shop-2 {
+    height: 702px;
+    background-image: url("../../images/Vitamins.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-2__title {
+    font-size: 110px;
+    font-weight: 400;
+    color: var(--clr-primary);
 }
