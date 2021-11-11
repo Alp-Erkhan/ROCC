@@ -4,56 +4,194 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ROCC</title>
     <link rel="stylesheet" href="styles/index.css" />
+    <title>ROCC</title>
   </head>
   <body>
     <header class="header">
       <nav class="header__nav wrapper">
+        <span class="header__logo">
+          <a href="index.html">
+            <img src="./images/logo.png" height="32" alt="Логотип сайта ROCC">
+          </a>
+        </span>
         <ul class="menu">
           <li class="menu__item">
-            <a class="menu__list" href="#">Better</a>
+            <a class="menu__list" href="#about">О нас</a>
           </li>
           <li class="menu__item">
-            <a class="menu__list" href="#">Shop</a>
+            <a class="menu__list" href="#shop">Купить</a>
           </li>
           <li class="menu__item">
-            <a class="menu__list" href="#">Subscription</a>
+            <a class="menu__list" href="#comments">Отзывы</a>
           </li>
           <li class="menu__item">
-            <a class="menu__list" href="#">Contact</a>
+            <a class="menu__list" href="#contacts">Контакты</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="main">
-      <section class="better wrapper">
-        <img class="better__img" src="images/image 1.png" width="418" height="192" alt="" />
-        <h1 class="better__title">Natural + Sustainable Oral Care</h1>
-      </section>
-      <section class="shop wrapper">
-          <h1 class="shop__title">We’re refreshing, but not just because we’re toothpaste.</h1>
-          <article class="shop__article">
-              <img class="article__img" src="images/Rectangle.png" alt="">
-              <h4 class="article__title">River Mint + Green Tea Toothpaste — $ 10.00</h4>
+    <main class="main wrapper">
+        <section class="better">
+          <img class="better__img" src="images/logo.png" width="418" height="192" alt="" />
+          <h1 class="better__title">Натуральный + устойчивый уход за полостью рта</h1>
+        </section>
+        <section id="shop" class="shop">
+            <h1 class="shop__title">Мы освежаемся, но не только потому, что мы зубная паста.</h1>
+            <article class="shop__article">
+                <img class="article__img" src="images/Rectangle.png" alt="">
+                <h4 class="article__title">Зубная паста с зеленым чаем</h4>
+            </article>
+            <article class="shop__article">
+                <img class="article__img" src="images/Rectangle-1.png" alt="">
+                <h4 class="article__title">Зубная паста с кокосовым маслом</h4>
+            </article>
+            <article class="shop__article">
+                <img class="article__img" src="images/Rectangle-2.png" alt="">
+                <h4 class="article__title">Стартовый комплект</h4>
+            </article>
+            <article class="shop__article">
+                <img class="article__img" src="images/Rectangle-3.png" alt="">
+                <h4 class="article__title">Биоразлагаемая зубная щетка</h4>
+            </article>
+            <button class="shop__button btn">Все товары</button>
+        </section>
+        <section class="shop-2">
+            <h1 class="shop-2__title">. Витамины. Веганский. Пр</h1>
+        </section>
+        <section id="about" class="gallery">
+            <img class="gallery__img-1" src="images/Rectangle 4.png" width="720" height="597" alt=""/>
+            <div class="gallery__text-1">
+              <svg class="gallery__svg" width="21" height="38" viewBox="0 0 21 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9907 0H3.00857C1.40148 0 0.140009 1.39007 0.279824 3.00271L2.5687 29.2952C2.68024 30.572 3.64166 31.5748 4.85994 31.7744V36.3771C4.85994 37.2745 5.57943 38 6.46702 38H14.5331C15.4207 38 16.1402 37.2745 16.1402 36.3771V31.7744C17.3584 31.574 18.3191 30.572 18.4314 29.2952L20.7203 3.00271C20.8593 1.39007 19.5978 0 17.9907 0Z" fill="#526E3E"/>
+              </svg>
+              <h1 class="gallery__title">Изготовлен из биоразлагаемых трубок.</h1>
+              <p>Мы думаем о своем следе почти так же, как о наших зубах. Ежегодно на свалки попадает 1 500 000 000 тюбиков зубной пасты. И проживут там 500+ лет.</p>
+              <p>Мы нашли способ получше - тюбик с биоразлагаемой зубной пастой. Первый в своем роде в России. Наша революционная труба разлагается на свалке всего за 6-10 лет.</p>
+              <p>Меняйте ситуацию каждый раз, когда вы чистите зубы.</p>
+            </div>
+            
+            <img class="gallery__img-2" src="images/Rectangle 5.png" width="720" height="597" alt=""/>
+            <div class="gallery__text-2">
+              <svg class="gallery__svg" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M31.3788 18.2554C31.3242 18.2008 31.2647 18.155 31.2085 18.102C31.2639 18.0489 31.3242 18.0031 31.3788 17.9485L33.2573 16.07C36.9276 12.3998 36.9276 6.44852 33.2573 2.7783C29.5871 -0.891921 23.6358 -0.891921 19.9656 2.7783L18.0871 4.6568C18.0598 4.68412 18.0373 4.71465 18.01 4.74197C17.9827 4.71465 17.9602 4.68412 17.9329 4.6568L16.0544 2.7783C12.3841 -0.891921 6.43288 -0.891921 2.76266 2.7783C-0.907561 6.44852 -0.907561 12.3998 2.76266 16.07L4.64116 17.9485C4.6958 18.0031 4.75525 18.0489 4.81149 18.102C4.75606 18.155 4.6958 18.2008 4.64116 18.2554L2.76266 20.1339C-0.907561 23.8041 -0.907561 29.7554 2.76266 33.4256C6.43288 37.0958 12.3841 37.0958 16.0544 33.4256L17.9329 31.5471C17.9602 31.5198 17.9827 31.4893 18.01 31.462C18.0373 31.4893 18.0598 31.5198 18.0871 31.5471L19.9656 33.4256C23.6358 37.0958 29.5871 37.0958 33.2573 33.4256C36.9276 29.7554 36.9276 23.8041 33.2573 20.1339L31.3788 18.2554ZM18.01 23.2104C15.189 23.2104 12.9016 20.9237 12.9016 18.102C12.9016 15.2802 15.1882 12.9935 18.01 12.9935C20.8318 12.9935 23.1184 15.2802 23.1184 18.102C23.1184 20.9237 20.831 23.2104 18.01 23.2104Z" fill="#526E3E"/>
+              </svg>
+              <h1 class="gallery__title">Сделано из витаминов + минералов земли.</h1>
+              <p>Наша зубная паста богата минералами и витаминами и предназначена для здоровья всей полости рта.</p>
+              <p>Возьмем, к примеру, нашу зубную пасту B12 Mint & Coconut. Он содержит самый натуральный высококачественный метилкобаламин B12, а также кокосовое масло для предотвращения неприятного запаха изо рта и кариеса.</p>
+              <p>Разве это не глоток свежего воздуха?</p>
+            </div>
+
+            <img class="gallery__img-3" src="images/Rectangle 6.png" width="720" height="597" alt=""/>
+            <div class="gallery__text-3">
+              <svg class="gallery__svg" width="36" height="32" viewBox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18 9.63617C13.0104 -1.79455 0 0.120651 0 0.120651C1.41048 8.49929 3.7152 14.5048 12.155 16.1896C15.2273 16.8023 15.9343 18.7989 16.0906 19.5067C16.0862 19.745 16.0826 19.9862 16.0826 20.2303L16.133 27.917V31.3334H19.867V27.917L19.9174 20.2303C19.9174 19.9862 19.9138 19.745 19.9094 19.5067C20.0657 18.7989 20.7734 16.8023 23.845 16.1896C32.2848 14.5048 34.5895 8.49929 36 0.120651C36 0.120651 22.9896 -1.79455 18 9.63617Z" fill="#526E3E"/>
+              </svg>
+              <h1 class="gallery__title">Сделано для здорового рта.</h1>
+              <p>Мы предпочитаем суперпродукты, такие как мята. Кокос. Зеленый чай. Мы думаем, что твой рот тоже.</p>
+              <p>Наша зубная паста изготовлена ​​из настоящих вкусных ингредиентов. Никаких неприятных химикатов, никаких экстремальных ароматов и уж точно никакого Arctic Blast.</p>
+              <p>Это праздник твоих зубов. И сладкое угощение после ужина.</p>
+            </div>
+        </section>
+        <section id="comments" class="comments">
+          <article class="comments__article">
+            <div class="comments__article--star">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+            </div>
+            <p>Алиса - Май 10, 2021</p>
+            <p>Эта зубная паста очень милая в моей ванной больше никаких уродливых тюбиков с зубной пастой. И он биоразлагаемый, беспроигрышный!</p>
           </article>
-          <article class="shop__article">
-            <img class="article__img" src="images/Rectangle-1.png" alt="">
-            <h4 class="article__title">River Mint + Green Tea Toothpaste — $ 10.00</h4>
-        </article>
-        <article class="shop__article">
-            <img class="article__img" src="images/Rectangle-2.png" alt="">
-            <h4 class="article__title">River Mint + Green Tea Toothpaste — $ 10.00</h4>
-        </article>
-        <article class="shop__article">
-            <img class="article__img" src="images/Rectangle-3.png" alt="">
-            <h4 class="article__title">River Mint + Green Tea Toothpaste — $ 10.00</h4>
-        </article>
-        <button class="shop__button btn">Shop all products</button>
-      </section>
-      <section class="shop-2 wrapper">
-          <h1 class="shop-2__title">. Vitamins. Vegan. Cruelty Fre</h1>
-      </section>
+          <article class="comments__article">
+            <div class="comments__article--star">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+            </div>
+            <p>Светлана - Июль 11, 2021</p>
+            <p>Нам очень нравятся эти продукты !!! И мы не можем сказать достаточно хороших слов о натуральных ингредиентах! 3 преимущества в 1.</p>
+          </article>
+          <article class="comments__article">
+            <div class="comments__article--star">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+              </svg>
+            </div>
+            <p>Антон - Апрель 5, 2021</p>
+            <p>B12 это зубная паста ?! Для меня вегана - это так здорово! Мне очень нравится супер мятный вкус.</p>
+          </article>
+        </section>
     </main>
+    <footer id="contacts" class="footer">
+      <div class="footer__container wrapper">
+        <span class="footer__copyright">©Все права защищены – ROCC Naturals 2021.</span>
+        <ul class="footer__menu">
+          <li><a href="#">политика конфиденциальности</a></li>
+          <li><a href="#">доставка + возврат</a></li>
+          <li><a href="#">условия и положения</a></li>
+        </ul>
+        <ul class="footer__menu--social">
+          <li>
+            <a href="#">
+              <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 9.05C18 4.05 13.97 0 9 0S0 4.05 0 9.05c0 4.52 3.3 8.27 7.6 8.95v-6.33H5.3V9.05h2.3V7.06c0-2.27 1.34-3.52 3.4-3.52.98 0 2 .17 2 .17v2.23h-1.13c-1.11 0-1.46.7-1.46 1.42v1.7h2.5l-.4 2.61h-2.1V18A9.04 9.04 0 0018 9.05z"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg width="17" height="14" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.35 14c6.41 0 9.92-5.39 9.92-10.06l-.01-.45A7.14 7.14 0 0017 1.66a6.8 6.8 0 01-2 .55A3.55 3.55 0 0016.53.26c-.68.4-1.43.7-2.21.85a3.48 3.48 0 00-5.73.97c-.31.7-.4 1.5-.22 2.26A9.8 9.8 0 011.18.64a3.58 3.58 0 001.08 4.72 3.46 3.46 0 01-1.58-.44v.05c0 .81.28 1.6.8 2.24a3.48 3.48 0 002 1.22c-.51.14-1.05.17-1.57.06a3.54 3.54 0 003.26 2.46A6.94 6.94 0 010 12.41 9.8 9.8 0 005.35 14z" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 1.62c2.41 0 2.7.01 3.64.05.88.04 1.36.19 1.67.31.42.16.72.36 1.04.67.31.32.5.62.67 1.04.12.32.27.8.3 1.67.05.95.06 1.23.06 3.63 0 2.41 0 2.7-.05 3.64a4.93 4.93 0 01-.31 1.67c-.16.42-.36.72-.67 1.03-.32.32-.62.51-1.04.68-.31.12-.8.27-1.67.3-.95.05-1.23.06-3.63.06-2.41 0-2.7-.01-3.64-.05A4.94 4.94 0 013.7 16a2.79 2.79 0 01-1.04-.68A2.77 2.77 0 012 14.3c-.12-.32-.27-.8-.3-1.67-.05-.95-.06-1.23-.06-3.64 0-2.4 0-2.69.05-3.63.04-.88.19-1.35.31-1.67.16-.42.36-.72.67-1.04.32-.31.62-.5 1.04-.67.31-.12.8-.27 1.67-.3.94-.05 1.23-.06 3.64-.06zM9 0C6.57 0 6.26.01 5.3.05 4.33.1 3.67.25 3.1.47c-.6.23-1.1.54-1.6 1.04s-.8 1-1.04 1.6a6.6 6.6 0 00-.42 2.18C.01 6.25 0 6.56 0 9c0 2.45.01 2.75.05 3.71s.2 1.62.42 2.19c.23.59.54 1.1 1.04 1.6s1 .8 1.6 1.03a6.6 6.6 0 002.18.42c.96.04 1.27.05 3.71.05 2.45 0 2.75-.01 3.71-.05s1.62-.2 2.19-.42a4.4 4.4 0 001.6-1.04c.49-.5.8-1 1.03-1.6a6.6 6.6 0 00.42-2.18c.04-.96.05-1.26.05-3.7 0-2.45-.01-2.75-.05-3.71a6.58 6.58 0 00-.42-2.19c-.22-.6-.53-1.1-1.03-1.6s-1-.8-1.6-1.04a6.6 6.6 0 00-2.18-.41A61.5 61.5 0 009.01 0z"/>
+                <path d="M9 4.38a4.63 4.63 0 100 9.25 4.63 4.63 0 000-9.25zM9 12a3 3 0 110-6 3 3 0 010 6zM14.9 4.2a1.08 1.08 0 11-2.17 0 1.08 1.08 0 012.16 0z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

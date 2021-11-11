@@ -1,16 +1,27 @@
 .header {
     background-color: var(--desaturated-green);
-    padding: 30px 0 27px 57px;
+    padding: 30px 0 27px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu {
-    width: 400px;
+    width: 480px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
 }
 
 .menu__list {
     text-decoration: none;
+    color: var(--light-brown);
+}
+
+.menu__list:hover {
     color: var(--clr-primary);
+    transition: .3s;
 }
