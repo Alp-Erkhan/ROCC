@@ -25,3 +25,13 @@
     color: var(--clr-primary);
     transition: .3s;
 }
+
+svg {
+    width: 20px;
+    fill: var(--light-brown);
+}
+
+svg:hover {
+    fill: var(--clr-primary);
+    transition: .3s;
+}
